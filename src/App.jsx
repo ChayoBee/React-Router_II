@@ -4,8 +4,9 @@ import './App.css'
 import Navbar from './Components/Navbar';
 import Home from './Views/Home';
 import Pokemon from './Views/Pokemon';
+import PokeDetails from './Views/PokeDetails';
 
-function App() {
+const App = () => {
 
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/pokemon' element={<Pokemon />} />
+        <Route path='/pokemon/:id' element={<PokeDetails />} />
       </Routes>
     </div>
   );

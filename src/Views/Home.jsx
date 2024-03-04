@@ -2,9 +2,11 @@ import { Logo } from '../assets/img/Icons';
 
 const Home = () => {
     return (
-        <div>
+        <div className='TitleHome mt-5'>
             <h1>Bienvenido maestro Pokémon</h1>
-            <Logo />
+            <div className='logo'>
+                <Logo />
+            </div>
         </div>
     );
 };

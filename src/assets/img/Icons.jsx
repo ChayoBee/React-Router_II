@@ -1,7 +1,7 @@
 export const Logo = () => {
     return (
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="1200.000000pt" height="442.000000pt" viewBox="0 0 1200.000000 442.000000"
+ width="500px" height="300px" viewBox="0 0 1200.000000 442.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
 Created by potrace 1.16, written by Peter Selinger 2001-2019

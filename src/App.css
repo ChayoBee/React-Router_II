@@ -1,6 +1,66 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/*Home*/
+
+.TitleHome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* Pokemon */
+
+.pokeSelect {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+select {
+    height: 30px;
+    width: 300px;
+}
+
+.btn {
+    height: 50px;
+    width: 190px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 15px 5px darkblue;
+    background-color: gold;
+    color: black;
+    font-family: fantasy;
+}
+
+/*PokeDetails*/
+
+.nombreID {
+    text-align: center;
+    padding: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 80px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.tipo {
+    font-family: sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
